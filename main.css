@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+img {
+  height: 10em;
+  display: block;
+  margin: auto;
+  margin-top: 20%;
+}
+
+p {
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 2em;
+  font-size: 18px;
+} 
