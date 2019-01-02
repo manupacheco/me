@@ -1,6 +1,6 @@
 # 👨🏻‍💻 Manu Pacheco
 
-![img](img/m_logo_b.png)
+<!-- ![img](img/m_logo_b.png) -->
 
 <https://emeeneu.github.io/me/>
 

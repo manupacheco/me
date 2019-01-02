@@ -1,4 +1,9 @@
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  min-width: 100%;
   background-color: rgb(34, 34, 34);
 }
 
@@ -6,13 +11,24 @@ img {
   height: 10em;
   display: block;
   margin: auto;
-  margin-top: 20%;
+  margin-top: 25%;
 }
 
 p {
   font-family: 'Didact Gothic', sans-serif;
   text-align: center;
   color: white;
-  margin-top: 2em;
+  margin-top: 1em;
   font-size: 24px;
+}
+
+footer {
+  background-color: rgba(20, 20, 20, 0.267);
+  height: 80px;
+  width: 100%;
+} 
+
+footer > p {
+  margin-top: 20px;
+  font-size: 16px;
 } 
