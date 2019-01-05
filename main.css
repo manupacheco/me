@@ -4,22 +4,63 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   min-width: 100%;
-  background-color: rgb(34, 34, 34);
+  /* background-color: rgb(34, 34, 34); */
 }
 
 img {
   height: 10em;
   display: block;
   margin: auto;
-  margin-top: 25%;
 }
 
 p {
   font-family: 'Didact Gothic', sans-serif;
+  text-transform: uppercase;
   text-align: center;
-  color: white;
+  color: rgb(235, 235, 235); 
   margin-top: 1em;
   font-size: 24px;
+}
+
+header {
+  background-image: url('img/cover.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.gradient {
+  background: linear-gradient(to right, rgba(29, 29, 29, 0.76), rgba(0, 0, 0, 0)); 
+  height: 100%;
+  width: 100%;
+}
+
+.logo-header {
+  padding-top: 30px;
+  width: 300px;
+}
+
+@media ( max-width: 576px ) {
+  .gradient {
+    background: linear-gradient(to bottom, rgb(17, 17, 17), rgba(0, 0, 0, 0)); 
+  }
+  .logo-header {
+    width: 100%;
+  }
+}
+
+
+.aboutme {
+  background-color: rgb(0, 186, 192);
+}
+
+.work {
+  background-color: rgb(34, 34, 34);
+}
+
+.contact {
+  background-color: rgb(250, 250, 250);
+  color: rgb(34, 34, 34);
 }
 
 footer {
@@ -31,4 +72,5 @@ footer {
 footer > p {
   margin-top: 20px;
   font-size: 16px;
+  color:white
 } 
