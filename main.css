@@ -11,14 +11,15 @@ img {
   height: 10em;
   display: block;
   margin: auto;
+  margin-bottom: 1em;
 }
 
-p {
+header span {
   font-family: 'Didact Gothic', sans-serif;
   text-transform: uppercase;
   text-align: center;
+  width: 100%;
   color: rgb(235, 235, 235); 
-  margin-top: 1em;
   font-size: 24px;
 }
 
@@ -36,8 +37,22 @@ header {
 }
 
 .logo-header {
-  padding-top: 30px;
+  padding-top: 10em;
+  margin-left: 5em;
   width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icons {
+  text-align: center;
+  font-size: 22px;
+}
+
+.icons i {
+  margin-right: 20px;
+  color: rgb(233, 233, 233);
 }
 
 @media ( max-width: 576px ) {
@@ -46,12 +61,14 @@ header {
   }
   .logo-header {
     width: 100%;
+    padding-top: 1.5em;
+    margin-left: 0;
   }
 }
 
-
 .aboutme {
-  background-color: rgb(0, 186, 192);
+  background-color: #4b5b5a;
+  color: white;
 }
 
 .work {
@@ -64,13 +81,19 @@ header {
 }
 
 footer {
-  background-color: rgba(20, 20, 20, 0.267);
+  background-color: rgb(37, 37, 37);
   height: 80px;
   width: 100%;
 } 
 
-footer > p {
+footer > div {
   margin-top: 20px;
   font-size: 16px;
   color:white
 } 
+
+.footer-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
