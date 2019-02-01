@@ -4,7 +4,7 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   min-width: 100%;
-  /* background-color: rgb(37, 37, 37); */
+  background-color: rgb(37, 37, 37);
 }
 
 img {
@@ -51,7 +51,7 @@ header {
 }
 
 .icons i {
-  margin-right: 20px;
+  margin: 0px 20px;
   color: rgb(233, 233, 233);
 }
 
@@ -66,13 +66,24 @@ header {
   }
 }
 
+h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  padding: 1em 0;
+}
+
 .aboutme {
   background-color: #4b5b5a;
   color: white;
 }
 
+.text {
+  padding-bottom: 1em;
+  width: 50%;
+}
+
 .work {
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(37, 37, 37);
 }
 
 .contact {
