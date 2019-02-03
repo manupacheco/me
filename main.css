@@ -15,7 +15,7 @@ img {
 }
 
 header span {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Ropa Sans', sans-serif;
   text-transform: uppercase;
   text-align: center;
   width: 100%;
@@ -43,6 +43,14 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.name {
+  font-size: 2em;
+} 
+
+.position {
+  margin-top: -10px;
 }
 
 .icons {
