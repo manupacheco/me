@@ -74,15 +74,17 @@ header {
   }
 }
 
-h2 {
-  text-transform: uppercase;
-  font-size: 32px;
-  padding: 1em 0;
-}
-
 .aboutme {
   background-color: #4b5b5a;
   color: white;
+}
+
+h2 {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 5em;
+  line-height: 0.8; 
+  text-transform: uppercase;
+  padding: 1em 0;
 }
 
 .text {
@@ -115,4 +117,8 @@ footer > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+#particles-js {
+  /* background: cornflowerblue; */
 }
