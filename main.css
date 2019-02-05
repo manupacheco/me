@@ -5,6 +5,7 @@ body {
   min-height: 100vh;
   min-width: 100%;
   background-color: rgb(37, 37, 37);
+  font-family: 'Ropa Sans', sans-serif;
 }
 
 img {
@@ -77,6 +78,7 @@ header {
 .aboutme {
   background-color: #4b5b5a;
   color: white;
+  /* position: absolute; */
 }
 
 h2 {
@@ -119,6 +121,8 @@ footer > div {
   justify-content: space-between;
 }
 
-#particles-js {
-  /* background: cornflowerblue; */
+#stars {
+  position: absolute;
+  width: 100%;
+  height: auto;
 }
