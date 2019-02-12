@@ -68,10 +68,16 @@ header {
   .gradient {
     background: linear-gradient(to bottom, rgb(17, 17, 17), rgba(0, 0, 0, 0)); 
   }
+  
   .logo-header {
     width: 100%;
     padding-top: 1.5em;
     margin-left: 0;
+  }
+
+  .about-information {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -91,7 +97,7 @@ h2 {
 
 .text {
   padding-bottom: 1em;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .work {
@@ -121,8 +127,13 @@ footer > div {
   justify-content: space-between;
 }
 
+.about-information {
+  display: flex;
+  flex-direction: row;
+}
+
 #stars {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: auto;
 }
